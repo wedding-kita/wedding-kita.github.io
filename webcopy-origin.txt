@@ -1,0 +1,564 @@
+Uri: https://ajax.googleapis.com/ajax/libs/jquery/3.6.2/jquery.min.js
+File Name: C:\Downloaded Web Sites\foreverr.id\ajax\libs\jquery\3.6.2\jquery.min-1.js
+Content Type: text/javascript
+
+Uri: https://fonts.googleapis.com/css?family=Inter:100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic|Poppins:100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic|Elsie+Swash+Caps:100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic|Work+Sans:100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic|Yeseva+One:100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic|Elsie:100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic|Assistant:100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic|Jura:100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=swap
+File Name: C:\Downloaded Web Sites\foreverr.id\css-1
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/assistant/v19/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtgFgIGaV2g.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\assistant\v19\2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtgFgIGaV2g.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/assistant/v19/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtjhgIGaV2g.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\assistant\v19\2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtjhgIGaV2g.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/assistant/v19/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtmZgIGaV2g.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\assistant\v19\2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtmZgIGaV2g.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/assistant/v19/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtmZnIGaV2g.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\assistant\v19\2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtmZnIGaV2g.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/assistant/v19/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtrhnIGaV2g.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\assistant\v19\2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtrhnIGaV2g.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/assistant/v19/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQttRnIGaV2g.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\assistant\v19\2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQttRnIGaV2g.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/assistant/v19/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnIGaV2g.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\assistant\v19\2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnIGaV2g.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/elsie/v24/BCanqZABrez54xYp_M0.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\elsie\v24\BCanqZABrez54xYp_M0.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/elsie/v24/BCaqqZABrez54x6q291PWaA.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\elsie\v24\BCaqqZABrez54x6q291PWaA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/elsieswashcaps/v23/845DNN8xGZyVX5MVo_upKf7KnjK0Te3fLA.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\elsieswashcaps\v23\845DNN8xGZyVX5MVo_upKf7KnjK0Te3fLA-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/elsieswashcaps/v23/845ENN8xGZyVX5MVo_upKf7KnjK0RW74PGqNSg.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\elsieswashcaps\v23\845ENN8xGZyVX5MVo_upKf7KnjK0RW74PGqNSg-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuBWYAZ9hjQ.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuBWYAZ9hjQ-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyfAZ9hjQ.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyfAZ9hjQ-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYAZ9hjQ.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYAZ9hjQ-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYAZ9hjQ.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYAZ9hjQ-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYAZ9hjQ.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYAZ9hjQ-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fAZ9hjQ.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fAZ9hjQ-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyeAZ9hjQ.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyeAZ9hjQ-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hjQ.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hjQ-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfAZ9hjQ.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\inter\v13\UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfAZ9hjQ-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/jura/v31/z7NOdRfiaC4Vd8hhoPzfb5vBTP0D7ZumR_0.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\jura\v31\z7NOdRfiaC4Vd8hhoPzfb5vBTP0D7ZumR_0-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/jura/v31/z7NOdRfiaC4Vd8hhoPzfb5vBTP1d7ZumR_0.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\jura\v31\z7NOdRfiaC4Vd8hhoPzfb5vBTP1d7ZumR_0-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/jura/v31/z7NOdRfiaC4Vd8hhoPzfb5vBTP1v7ZumR_0.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\jura\v31\z7NOdRfiaC4Vd8hhoPzfb5vBTP1v7ZumR_0-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/jura/v31/z7NOdRfiaC4Vd8hhoPzfb5vBTP266pumR_0.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\jura\v31\z7NOdRfiaC4Vd8hhoPzfb5vBTP266pumR_0-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/jura/v31/z7NOdRfiaC4Vd8hhoPzfb5vBTP2D6pumR_0.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\jura\v31\z7NOdRfiaC4Vd8hhoPzfb5vBTP2D6pumR_0-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiAyp8kv8JHgFVrJJLmE0tCMPc.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\poppins\v20\pxiAyp8kv8JHgFVrJJLmE0tCMPc-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLBT5Z1xlEA.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\poppins\v20\pxiByp8kv8JHgFVrLBT5Z1xlEA-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlEA.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\poppins\v20\pxiByp8kv8JHgFVrLCz7Z1xlEA-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z1xlEA.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\poppins\v20\pxiByp8kv8JHgFVrLDD4Z1xlEA-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1xlEA.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\poppins\v20\pxiByp8kv8JHgFVrLDz8Z1xlEA-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlEA.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\poppins\v20\pxiByp8kv8JHgFVrLEj6Z1xlEA-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLFj_Z1xlEA.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\poppins\v20\pxiByp8kv8JHgFVrLFj_Z1xlEA-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlEA.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\poppins\v20\pxiByp8kv8JHgFVrLGT9Z1xlEA-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiDyp8kv8JHgFVrJJLm111VF9eL.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\poppins\v20\pxiDyp8kv8JHgFVrJJLm111VF9eL-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiDyp8kv8JHgFVrJJLm21lVF9eL.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\poppins\v20\pxiDyp8kv8JHgFVrJJLm21lVF9eL-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiDyp8kv8JHgFVrJJLm81xVF9eL.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\poppins\v20\pxiDyp8kv8JHgFVrJJLm81xVF9eL-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiDyp8kv8JHgFVrJJLmg1hVF9eL.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\poppins\v20\pxiDyp8kv8JHgFVrJJLmg1hVF9eL-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiDyp8kv8JHgFVrJJLmr19VF9eL.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\poppins\v20\pxiDyp8kv8JHgFVrJJLmr19VF9eL-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiDyp8kv8JHgFVrJJLmv1pVF9eL.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\poppins\v20\pxiDyp8kv8JHgFVrJJLmv1pVF9eL-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiDyp8kv8JHgFVrJJLmy15VF9eL.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\poppins\v20\pxiDyp8kv8JHgFVrJJLmy15VF9eL-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfedw.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\poppins\v20\pxiEyp8kv8JHgFVrJJfedw-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiGyp8kv8JHgFVrJJLucHtF.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\poppins\v20\pxiGyp8kv8JHgFVrJJLucHtF-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v20/pxiGyp8kv8JHgFVrLPTucHtF.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\poppins\v20\pxiGyp8kv8JHgFVrLPTucHtF-1.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/worksans/v19/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU3mo5pIfd.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\worksans\v19\QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU3mo5pIfd.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/worksans/v19/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU3ms5pIfd.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\worksans\v19\QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU3ms5pIfd.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/worksans/v19/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU7Gs5pIfd.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\worksans\v19\QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU7Gs5pIfd.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/worksans/v19/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUAGw5pIfd.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\worksans\v19\QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUAGw5pIfd.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/worksans/v19/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUd2w5pIfd.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\worksans\v19\QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUd2w5pIfd.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/worksans/v19/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUgGs5pIfd.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\worksans\v19\QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUgGs5pIfd.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/worksans/v19/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUOWw5pIfd.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\worksans\v19\QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUOWw5pIfd.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/worksans/v19/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUXms5pIfd.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\worksans\v19\QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUXms5pIfd.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/worksans/v19/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUXmw5pIfd.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\worksans\v19\QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGUXmw5pIfd.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/worksans/v19/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K-DQBi8Jow.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\worksans\v19\QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K-DQBi8Jow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/worksans/v19/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nWBi8Jow.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\worksans\v19\QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nWBi8Jow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/worksans/v19/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nXBi8Jow.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\worksans\v19\QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nXBi8Jow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/worksans/v19/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K3vXBi8Jow.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\worksans\v19\QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K3vXBi8Jow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/worksans/v19/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K5fQBi8Jow.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\worksans\v19\QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K5fQBi8Jow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/worksans/v19/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K67QBi8Jow.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\worksans\v19\QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K67QBi8Jow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/worksans/v19/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K8nQBi8Jow.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\worksans\v19\QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K8nQBi8Jow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/worksans/v19/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K8nXBi8Jow.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\worksans\v19\QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K8nXBi8Jow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/worksans/v19/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32KxfXBi8Jow.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\worksans\v19\QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32KxfXBi8Jow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/yesevaone/v22/OpNJno4ck8vc-xYpwWWxli1VXg.ttf
+File Name: C:\Downloaded Web Sites\foreverr.id\s\yesevaone\v22\OpNJno4ck8vc-xYpwWWxli1VXg-1.ttf
+Content Type: font/ttf
+
+Uri: https://foreverr.id/demo/uw028/
+File Name: C:\Downloaded Web Sites\foreverr.id\demo\uw028\index.htm
+Content Type: text/html
+
+Uri: https://foreverr.id/demo/uw028/?post_id=96501&comments=21&get=1000 order=ASC
+File Name: C:\Downloaded Web Sites\foreverr.id\demo\uw028\index-1.htm
+Content Type: text/html
+
+Uri: https://foreverr.id/theme/art/ar-001/img/ed0795f8b0.webp
+File Name: C:\Downloaded Web Sites\foreverr.id\theme\art\ar-001\img\ed0795f8b0-1.webp
+Content Type: image/webp
+
+Uri: https://foreverr.id/wp-content/assets/css/foreverr_36d417c81733836ab931f8b76df6fabb.css
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\assets\css\foreverr_36d417c81733836ab931f8b76df6fabb.css
+Content Type: text/css
+
+Uri: https://foreverr.id/wp-content/assets/css/foreverr_f341e8698ae8511d96e2ce0000e87b37.css
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\assets\css\foreverr_f341e8698ae8511d96e2ce0000e87b37.css
+Content Type: text/css
+
+Uri: https://foreverr.id/wp-content/assets/css/foreverr_single_5aa5575680c919b02e6293215b5bdfd0.css
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\assets\css\foreverr_single_5aa5575680c919b02e6293215b5bdfd0.css
+Content Type: text/css
+
+Uri: https://foreverr.id/wp-content/assets/css/foreverr_single_8f200ba6894736856b3c8b843e14d7cc.css
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\assets\css\foreverr_single_8f200ba6894736856b3c8b843e14d7cc-1.css
+Content Type: text/css
+
+Uri: https://foreverr.id/wp-content/assets/js/foreverr_c5de72f0bc4ac71d9220fc2631fc3d1f.js
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\assets\js\foreverr_c5de72f0bc4ac71d9220fc2631fc3d1f.js
+Content Type: application/x-javascript
+
+Uri: https://foreverr.id/wp-content/assets/js/foreverr_single_bc20342f4a0e4bab60d777e0366ea4de.js
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\assets\js\foreverr_single_bc20342f4a0e4bab60d777e0366ea4de-1.js
+Content Type: application/x-javascript
+
+Uri: https://foreverr.id/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\plugins\elementor\assets\lib\jquery-numerator\jquery-numerator.min-1.js
+Content Type: application/x-javascript
+
+Uri: https://foreverr.id/wp-content/uploads/2021/02/foreverr.id-the-wedding-of-dinda-fauzi-the-wedding-of-dinda-fauzi-5.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\2021\02\foreverr.id-the-wedding-of-dinda-fauzi-the-wedding-of-dinda-fauzi-5-1.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/andepfaqih/image/png/andepfaqih-20210318112512778152.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\andepfaqih\image\png\andepfaqih-20210318112512778152-1.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/dynamic-content-widget-50b70158-2/8c7dd922ad47494fc02c388e12c00eac.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\dynamic-content-widget-50b70158-2\8c7dd922ad47494fc02c388e12c00eac-1.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/foreverr.id-the-wedding-of-metro-ina-mandiri-logo.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\foreverr.id-the-wedding-of-metro-ina-mandiri-logo-1.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/image/svg+xml/20210227083936543207.svg
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\image\svg xml\20210227083936543207-1.svg
+Content Type: image/svg+xml
+
+Uri: https://foreverr.id/wp-content/uploads/lisdaluthfi/8c7dd922ad47494fc02c388e12c00eac-5.jpg
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\lisdaluthfi\8c7dd922ad47494fc02c388e12c00eac-5.jpg
+Content Type: image/jpeg
+
+Uri: https://foreverr.id/wp-content/uploads/lisdaluthfi/8c7dd922ad47494fc02c388e12c00eac-6.jpg
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\lisdaluthfi\8c7dd922ad47494fc02c388e12c00eac-6.jpg
+Content Type: image/jpeg
+
+Uri: https://foreverr.id/wp-content/uploads/tes/tes-20211009031253750468.svg
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\tes\tes-20211009031253750468-1.svg
+Content Type: image/svg+xml
+
+Uri: https://foreverr.id/wp-content/uploads/the-wedding-of-ana-ankih/8c7dd922ad47494fc02c388e12c00eac-1.jpg
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\the-wedding-of-ana-ankih\8c7dd922ad47494fc02c388e12c00eac-1.jpg
+Content Type: image/jpeg
+
+Uri: https://foreverr.id/wp-content/uploads/the-wedding-of-ana-ankih/8c7dd922ad47494fc02c388e12c00eac-2.jpg
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\the-wedding-of-ana-ankih\8c7dd922ad47494fc02c388e12c00eac-2.jpg
+Content Type: image/jpeg
+
+Uri: https://foreverr.id/wp-content/uploads/the-wedding-of-ana-ankih/8c7dd922ad47494fc02c388e12c00eac-3-100x150.jpg
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\the-wedding-of-ana-ankih\8c7dd922ad47494fc02c388e12c00eac-3-100x150.jpg
+Content Type: image/jpeg
+
+Uri: https://foreverr.id/wp-content/uploads/the-wedding-of-ana-ankih/8c7dd922ad47494fc02c388e12c00eac-3-200x300.jpg
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\the-wedding-of-ana-ankih\8c7dd922ad47494fc02c388e12c00eac-3-200x300.jpg
+Content Type: image/jpeg
+
+Uri: https://foreverr.id/wp-content/uploads/the-wedding-of-ana-ankih/8c7dd922ad47494fc02c388e12c00eac-3-683x1024.jpg
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\the-wedding-of-ana-ankih\8c7dd922ad47494fc02c388e12c00eac-3-683x1024.jpg
+Content Type: image/jpeg
+
+Uri: https://foreverr.id/wp-content/uploads/the-wedding-of-ana-ankih/8c7dd922ad47494fc02c388e12c00eac-3.jpg
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\the-wedding-of-ana-ankih\8c7dd922ad47494fc02c388e12c00eac-3.jpg
+Content Type: image/jpeg
+
+Uri: https://foreverr.id/wp-content/uploads/the-wedding-of-ana-ankih/8c7dd922ad47494fc02c388e12c00eac-4-100x150.jpg
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\the-wedding-of-ana-ankih\8c7dd922ad47494fc02c388e12c00eac-4-100x150.jpg
+Content Type: image/jpeg
+
+Uri: https://foreverr.id/wp-content/uploads/the-wedding-of-ana-ankih/8c7dd922ad47494fc02c388e12c00eac-4-200x300.jpg
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\the-wedding-of-ana-ankih\8c7dd922ad47494fc02c388e12c00eac-4-200x300.jpg
+Content Type: image/jpeg
+
+Uri: https://foreverr.id/wp-content/uploads/the-wedding-of-ana-ankih/8c7dd922ad47494fc02c388e12c00eac-4-683x1024.jpg
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\the-wedding-of-ana-ankih\8c7dd922ad47494fc02c388e12c00eac-4-683x1024.jpg
+Content Type: image/jpeg
+
+Uri: https://foreverr.id/wp-content/uploads/the-wedding-of-ana-ankih/8c7dd922ad47494fc02c388e12c00eac-4.jpg
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\the-wedding-of-ana-ankih\8c7dd922ad47494fc02c388e12c00eac-4.jpg
+Content Type: image/jpeg
+
+Uri: https://foreverr.id/wp-content/uploads/the-wedding-of-ana-ankih/8c7dd922ad47494fc02c388e12c00eac-5.jpg
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\the-wedding-of-ana-ankih\8c7dd922ad47494fc02c388e12c00eac-5.jpg
+Content Type: image/jpeg
+
+Uri: https://foreverr.id/wp-content/uploads/the-wedding-of-ana-ankih/8c7dd922ad47494fc02c388e12c00eac.jpg
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\the-wedding-of-ana-ankih\8c7dd922ad47494fc02c388e12c00eac.jpg
+Content Type: image/jpeg
+
+Uri: https://foreverr.id/wp-content/uploads/tyaadit/image/png/tyaadit-20210316184134953844.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\tyaadit\image\png\tyaadit-20210316184134953844-1.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-1-100x150.jpg
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-1-100x150.jpg
+Content Type: image/jpeg
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-1-108x150.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-1-108x150.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-1-200x300.jpg
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-1-200x300.jpg
+Content Type: image/jpeg
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-1-216x300.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-1-216x300.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-1.jpg
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-1.jpg
+Content Type: image/jpeg
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-1.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-1.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-1024x160.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-1024x160.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-150x23.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-150x23.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-1536x240.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-1536x240.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-2-100x150.jpg
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-2-100x150.jpg
+Content Type: image/jpeg
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-2-196x300.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-2-196x300.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-2-200x300.jpg
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-2-200x300.jpg
+Content Type: image/jpeg
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-2-670x1024.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-2-670x1024.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-2-98x150.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-2-98x150.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-2.jpg
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-2.jpg
+Content Type: image/jpeg
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-2.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-2.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-2048x320.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-2048x320.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-3-1024x156.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-3-1024x156.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-3-150x23.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-3-150x23.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-3-1536x233.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-3-1536x233.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-3-2048x311.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-3-2048x311.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-3-300x46.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-3-300x46.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-3.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-3.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-300x47.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-300x47.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-4-129x150.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-4-129x150.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-4-259x300.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-4-259x300.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-4.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-4.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-5-150x80.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-5-150x80.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-5-300x160.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-5-300x160.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-5.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-5.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-6-150x56.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-6-150x56.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-6-300x112.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-6-300x112.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-6.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-6.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-7-150x116.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-7-150x116.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-7-300x232.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-7-300x232.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac-7.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac-7.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac.mp3
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac.mp3
+Content Type: audio/mpeg
+
+Uri: https://foreverr.id/wp-content/uploads/uw028/8c7dd922ad47494fc02c388e12c00eac.png
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-content\uploads\uw028\8c7dd922ad47494fc02c388e12c00eac.png
+Content Type: image/png
+
+Uri: https://foreverr.id/wp-includes/js/dist/hooks.min.js
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-includes\js\dist\hooks.min-1.js
+Content Type: application/x-javascript
+
+Uri: https://foreverr.id/wp-includes/js/dist/i18n.min.js
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-includes\js\dist\i18n.min-1.js
+Content Type: application/x-javascript
+
+Uri: https://foreverr.id/wp-includes/js/dist/vendor/regenerator-runtime.min.js
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-includes\js\dist\vendor\regenerator-runtime.min-1.js
+Content Type: application/x-javascript
+
+Uri: https://foreverr.id/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-includes\js\dist\vendor\wp-polyfill-inert.min-1.js
+Content Type: application/x-javascript
+
+Uri: https://foreverr.id/wp-includes/js/dist/vendor/wp-polyfill.min.js
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-includes\js\dist\vendor\wp-polyfill.min-1.js
+Content Type: application/x-javascript
+
+Uri: https://foreverr.id/wp-includes/js/jquery/ui/core.min.js
+File Name: C:\Downloaded Web Sites\foreverr.id\wp-includes\js\jquery\ui\core.min-1.js
+Content Type: application/x-javascript
+
+Uri: https://s.foreverr.id/themes/global/54a93343c0.webp
+File Name: C:\Downloaded Web Sites\foreverr.id\themes\global\54a93343c0-1.webp
+Content Type: image/webp
+
+Uri: https://www.googletagmanager.com/gtag/js?id=G-YMVZBHP66P
+File Name: C:\Downloaded Web Sites\foreverr.id\gtag\js-1
+Content Type: application/javascript
+
