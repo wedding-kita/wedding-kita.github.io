@@ -19,7 +19,7 @@
     <meta property="og:title" content="Nadia & Alwy Wedding">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://alwy-nadia.site/">
-    <meta property="og:description" content="Java Wayang Kulit">
+    <meta property="og:description" content="Akhirnya, kami mengundang Anda untuk merayakan momen istimewa kami!">
     <meta property="og:image"
         content="https://alwy-nadia.site/wp-content/uploads/the-wedding-of-ana-ankih/8c7dd922ad47494fc02c388e12c00eac-4.jpg">
     <meta property="og:image:width" content="640">
@@ -3366,11 +3366,12 @@
 
         // Iterasi melalui setiap entri data
         data.forEach(entry => {
-            if (entry.Keterangan.toLowerCase().includes("hadir")) {
-                // Jika entri memiliki Keterangan "hadir", tambahkan ke jumlah hadir
+            if (entry.Wish === "hadir") {
+                // Jika entri memiliki Wish "hadir", tambahkan ke jumlah hadir
                 hadir += parseInt(entry.Jumlah) || 0; // Mengonversi Jumlah menjadi angka
-            } else if (entry.Keterangan.toLowerCase().includes("tidak hadir")) {
-                // Jika entri memiliki Keterangan "tidak hadir", tambahkan ke jumlah tidak hadir
+            }
+            if (entry.Wish === "Tidak Hadir") {
+                // Jika entri memiliki Wish "Tidak Hadir", tambahkan ke jumlah tidak hadir
                 tidakHadir += parseInt(entry.Jumlah) || 0; // Mengonversi Jumlah menjadi angka
             }
         });
@@ -3379,6 +3380,7 @@
         document.querySelector('.hadir-style h1').textContent = hadir;
         document.querySelector('.thadir-style h1').textContent = tidakHadir;
     }
+
 
 
 
