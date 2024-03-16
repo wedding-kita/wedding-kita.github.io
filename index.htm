@@ -111,83 +111,38 @@
           color: #007bff;
         }
       </style>
+      
       <style>
-        /* Style untuk formulir */
-        #myForm {
-            width: 100%;
-            max-width: 400px;
-            margin: 0 auto;
+        /* Style untuk radio box yang dipilih */
+        input[type="radio"] {
+            display: none; /* Sembunyikan input radio default */
         }
-    
-        .form-group {
-            margin-bottom: 20px;
-        }
-    
-        .form-control {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            box-sizing: border-box;
-        }
-    
-        .label-wish-form {
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-    
-        .attend {
+
+        input[type="radio"] + label {
             display: inline-block;
             padding: 10px;
             border-radius: 5px;
             cursor: pointer;
             transition: background-color 0.3s ease;
+            border: 1px solid transparent; /* Tambahkan border agar tombol memiliki ukuran yang konsisten */
         }
-    
-        #attend {
+
+        /* Tombol "Hadir" */
+        #attend + label {
             background-color: green;
             color: white;
         }
-    
-        #no-attend {
+
+        /* Tombol "Tidak Hadir" */
+        #no-attend + label {
             background-color: orange;
             color: white;
         }
-    
-        #number-attend {
-            display: none;
-        }
-    
-        .flexy-container {
-            display: flex;
-            justify-content: space-between; /* Mengatur jarak antara tombol */
-            align-items: center;
-        }
-    
-        button[type="button"] {
-            flex: 1;
-            color: white;
-            background-color: #32373c;
-            border: none;
-            padding: 10px;
-            cursor: pointer;
-            border-radius: 10px;
+
+        /* Tambahkan properti untuk ukuran tombol */
+        input[type="radio"] + label {
+            width: 120px; /* Sesuaikan ukuran tombol sesuai kebutuhan */
             text-align: center;
-            font-size: 16px;
-            font-weight: bold;
-            transition: background-color 0.3s ease;
-        }
-    
-        button[type="button"]:hover {
-            background-color: #555;
-        }
-    
-        /* Style untuk radio box yang dipilih */
-        input[type="radio"]:checked + label {
-            background-color: #50270d;
-            color: white;
-            border-radius: 5px;
-            padding: 5px 10px;
         }
 
         /* Tambahkan style untuk ikon */
@@ -195,7 +150,15 @@
             margin-right: 5px; /* Mengatur jarak antara ikon dan teks label */
             vertical-align: middle; /* Memastikan ikon berada di tengah vertikal dengan teks label */
         }
-    </style>
+
+        .flexy-container {
+            display: flex;
+            justify-content: space-around; /* Mengatur jarak antara tombol */
+            align-items: center;
+            margin-top: 10px; /* Tambahkan margin atas agar tombol berada di tengah */
+        }
+        
+        </style>
 </head>
 
 <body data-rsssl="1"
