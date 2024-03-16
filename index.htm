@@ -111,6 +111,71 @@
           color: #007bff;
         }
       </style>
+      <style>
+        /* Style untuk formulir */
+        #myForm {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+    
+        .form-group {
+            margin-bottom: 20px;
+        }
+    
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+    
+        .label-wish-form {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    
+        .attend {
+            margin-right: 10px;
+        }
+    
+        #number-attend {
+            display: none;
+        }
+    
+        .flexy-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        button[type="button"] {
+            flex: 1;
+            color: white;
+            background-color: #32373c;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+    
+        button[type="button"]:hover {
+            background-color: #555;
+        }
+    
+        /* Style untuk radio box yang dipilih */
+        input[type="radio"]:checked + label {
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            padding: 5px 10px;
+        }
+    </style>
 </head>
 
 <body data-rsssl="1"
@@ -2262,70 +2327,54 @@
                                                         </div>
                                                     </form> -->
                                                     <form id="myForm">
-                                                        <div class="form-group"> <input class="form-control"
-                                                                name="name" id="nama" value="" placeholder="Nama Kamu"
-                                                                required=""></div>
-                                                        <div class="form-group"><textarea class="form-control"
-                                                                rows="4" name="wishes" id="wish"
-                                                                placeholder="Berikan Ucapan &amp; Do&#039;a"
-                                                                required=""></textarea></div>
+                                                        <div class="form-group">
+                                                            <input class="form-control" name="name" id="nama" value="" placeholder="Nama Kamu" required="">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <textarea class="form-control" rows="4" name="wishes" id="wish" placeholder="Berikan Ucapan &amp; Do'a"
+                                                                required=""></textarea>
+                                                        </div>
                                                         <div class="label-wish-form">Konfirmasi Kehadiran ?</div>
-                                                        <div class="form-group"> <input type="radio"
-                                                                name="attendance" value="hadir" id="attend"
-                                                                required/=""> <label for="attend" class="attend">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                                                    height="16" fill="currentColor"
-                                                                    class="bi bi-check-circle" viewbox="0 0 16 16">
+                                                        <div class="form-group">
+                                                            <input type="radio" name="attendance" value="hadir" id="attend" required>
+                                                            <label for="attend" class="attend">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                                                    class="bi bi-check-circle" viewBox="0 0 16 16">
                                                                     <path
                                                                         d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z">
                                                                     </path>
                                                                     <path
                                                                         d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z">
                                                                     </path>
-                                                                </svg> Hadir</label> <input type="radio"
-                                                                name="attendance" value="Tidak Hadir"
-                                                                id="no-attend"> <label for="no-attend"
-                                                                class="attend"> <svg
-                                                                    xmlns="http://www.w3.org/2000/svg" width="15"
-                                                                    height="15" fill="currentColor"
-                                                                    class="bi bi-x-circle" viewbox="0 0 16 16">
+                                                                </svg> Hadir
+                                                            </label>
+                                                            <input type="radio" name="attendance" value="Tidak Hadir" id="no-attend">
+                                                            <label for="no-attend" class="attend">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
+                                                                    class="bi bi-x-circle" viewBox="0 0 16 16">
                                                                     <path
                                                                         d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z">
                                                                     </path>
                                                                     <path
                                                                         d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z">
                                                                     </path>
-                                                                </svg> Tidak Hadir</label>
-                                                            </div>
+                                                                </svg> Tidak Hadir
+                                                            </label>
+                                                        </div>
                                                         <div class="form-group" id="number-attend">
-                                                            <div class="form-group-prepend"> <label>Jumlah
-                                                                    Tamu</label> <select type="number" id="jumlah"
-                                                                    name="numb-attendence">
-                                                                    <option disabled="">~</option>
-                                                                    <option value='1'>1 Tamu</option>
-                                                                    <option value='2'>2 Tamu</option>
-                                                                    <option value='3'>3 Tamu</option>
-                                                                </select>
-                                                            </div>
+                                                            <label>Jumlah Tamu</label>
+                                                            <select type="number" id="jumlah" name="numb-attendence">
+                                                                <option disabled="">~</option>
+                                                                <option value='1'>1 Tamu</option>
+                                                                <option value='2'>2 Tamu</option>
+                                                                <option value='3'>3 Tamu</option>
+                                                            </select>
                                                         </div>
                                                         <div class="flexy-container">
-                                                            <button type="button" onclick="submitFormCheck()" style="
-                                                                flex: 1;
-                                                                color: white; 
-                                                                background-color: #32373c; 
-                                                                border: none; 
-                                                                padding: 10px; 
-                                                                cursor: pointer;
-                                                                border-radius: 10px;
-                                                                text-align: center;
-                                                                font-size: 16px; /* Ukuran font */
-                                                                font-weight: bold; /* Ketebalan font */
-                                                                transition: background-color 0.3s ease; /* Efek transisi warna latar belakang */
-                                                            ">
+                                                            <button type="button" onclick="submitFormCheck()">
                                                                 Send
-                                                            </button>  
-                                                        </div>                                                            
-                                                        <!-- </div> <button type="button" onclick="submitForm()">Send</button> -->
+                                                            </button>
+                                                        </div>
                                                     </form>
                                                 </div>
                                             </div>
@@ -3449,6 +3498,21 @@
                 submitForm();
             }
         }
+        </script>
+        <script>
+            // JavaScript untuk menampilkan pilihan jumlah tamu jika opsi "Hadir" dipilih
+            document.getElementById('attend').addEventListener('click', function () {
+                document.getElementById('number-attend').style.display = 'block';
+            });
+        
+            document.getElementById('no-attend').addEventListener('click', function () {
+                document.getElementById('number-attend').style.display = 'none';
+            });
+        
+            // Fungsi untuk pengiriman formulir
+            function submitFormCheck() {
+                // Tambahkan kode untuk menangani pengiriman formulir di sini
+            }
         </script>
 
 </body>
