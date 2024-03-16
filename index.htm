@@ -3360,15 +3360,38 @@
           </script>
  
 <script>
+    function hitungKehadiran(data) {
+        let hadir = 0;
+        let tidakHadir = 0;
+
+        // Iterasi melalui setiap entri data
+        data.forEach(entry => {
+            if (entry.Wish === "hadir") {
+                // Jika entri memiliki Wish "hadir", tambahkan ke jumlah hadir
+                hadir += parseInt(entry.Jumlah) || 0; // Mengonversi Jumlah menjadi angka
+            } else if (entry.Wish === "Tidak Hadir") {
+                // Jika entri memiliki Wish "Tidak Hadir", tambahkan ke jumlah tidak hadir
+                tidakHadir += parseInt(entry.Jumlah) || 0; // Mengonversi Jumlah menjadi angka
+            }
+        });
+
+        // Set nilai label untuk jumlah hadir dan tidak hadir
+        document.querySelector('.hadir-style h1').textContent = hadir;
+        document.querySelector('.thadir-style h1').textContent = tidakHadir;
+    }
+
     function fetchData() {
-      fetch('https://script.google.com/macros/s/AKfycbxfITv0in6X8DnTsCWQbcFB6tP5uv2Vt_h3NKGDeDBWdEANJzgL7Y-etg4MBBgzYwdnFw/exec')
-        .then(response => response.json())
-        .then(data => {
-          // Urutkan data dari paling terakhir
-          const sortedData = data.data.reverse();
-          displayComments(sortedData);
-        })
-        .catch(error => console.error('Error fetching data:', error));
+        fetch('https://script.google.com/macros/s/AKfycbxfITv0in6X8DnTsCWQbcFB6tP5uv2Vt_h3NKGDeDBWdEANJzgL7Y-etg4MBBgzYwdnFw/exec')
+            .then(response => response.json())
+            .then(data => {
+                // Urutkan data dari paling terakhir
+                const sortedData = data.data.reverse();
+                // Menampilkan komentar
+                displayComments(sortedData);
+                // Hitung kehadiran
+                hitungKehadiran(sortedData);
+            })
+            .catch(error => console.error('Error fetching data:', error));
     }
 
     function formatTimestamp(timestamp) {
@@ -3548,18 +3571,6 @@
         
             // Fungsi untuk pengiriman formulir
             
-        </script>
-        
-        <script>
-            document.getElementById('attend').addEventListener('change', function () {
-                document.getElementById('attend-label').style.backgroundColor = this.checked ? 'green' : '';
-                document.getElementById('no-attend-label').style.backgroundColor = '';
-            });
-        
-            document.getElementById('no-attend').addEventListener('change', function () {
-                document.getElementById('no-attend-label').style.backgroundColor = this.checked ? 'orange' : '';
-                document.getElementById('attend-label').style.backgroundColor = '';
-            });
         </script>
         
 
