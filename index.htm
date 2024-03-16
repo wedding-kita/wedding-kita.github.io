@@ -3477,13 +3477,17 @@
 
         <script>
         function submitFormCheck() {
-            // Memeriksa apakah nama, ucapan, kehadiran, dan jumlah tamu sudah terisi
+            // Memeriksa apakah nama, ucapan, dan kehadiran sudah terisi
             var namaTamu = document.getElementById('nama').value;
             var ucapan = document.getElementById('wish').value;
             var kehadiran = document.querySelector('input[name="attendance"]:checked');
-            var jumlahTamu = document.getElementById('jumlah').value;
-        
-            if (namaTamu === "" || ucapan === "" || !kehadiran || jumlahTamu === "") {
+
+            // Jika opsi "Hadir" dipilih, periksa juga jumlah tamu
+            if (kehadiran && kehadiran.value === "hadir") {
+                var jumlahTamu = document.getElementById('jumlah').value;
+            }
+
+            if (namaTamu === "" || ucapan === "" || !kehadiran || (kehadiran.value === "hadir" && jumlahTamu === "")) {
                 // Jika ada yang belum terisi, tampilkan alert menggunakan SweetAlert2
                 Swal.fire({
                     title: 'Isian belum lengkap',
@@ -3498,6 +3502,7 @@
                 submitForm();
             }
         }
+
         </script>
         <script>
             // JavaScript untuk menampilkan pilihan jumlah tamu jika opsi "Hadir" dipilih
