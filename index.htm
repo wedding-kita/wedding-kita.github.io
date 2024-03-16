@@ -3366,11 +3366,11 @@
 
         // Iterasi melalui setiap entri data
         data.forEach(entry => {
-            if (entry.Wish === "hadir") {
+            if (entry.Keterangan === "hadir") {
                 // Jika entri memiliki Wish "hadir", tambahkan ke jumlah hadir
                 hadir += parseInt(entry.Jumlah) || 0; // Mengonversi Jumlah menjadi angka
             }
-            if (entry.Wish === "Tidak Hadir") {
+            if (entry.Keterangan === "Tidak Hadir") {
                 // Jika entri memiliki Wish "Tidak Hadir", tambahkan ke jumlah tidak hadir
                 tidakHadir += parseInt(entry.Jumlah) || 0; // Mengonversi Jumlah menjadi angka
             }
@@ -3385,7 +3385,7 @@
 
 
     function fetchData() {
-        fetch('https://script.google.com/macros/s/AKfycbxfITv0in6X8DnTsCWQbcFB6tP5uv2Vt_h3NKGDeDBWdEANJzgL7Y-etg4MBBgzYwdnFw/exec')
+        fetch('https://script.google.com/macros/s/AKfycbwXGMEk0Sr_AUpKxfChp0zXL4f0wjoRwj-7bWCXFKK5ICNNHR1q3mIXauVQQmYEHGj39A/exec')
             .then(response => response.json())
             .then(data => {
                 // Urutkan data dari paling terakhir
