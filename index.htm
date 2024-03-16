@@ -3366,10 +3366,9 @@
 
         // Menghitung jumlah kehadiran dan ketidakhadiran
         data.forEach(entry => {
-            if (entry.Wish === "hadir") {
+            if (entry.Keterangan.toLowerCase().includes("hadir")) {
                 hadir += parseInt(entry.Jumlah) || 0; // Mengonversi Jumlah menjadi angka
-            }
-            if (entry.Wish === "Tidak Hadir") {
+            } else if (entry.Keterangan.toLowerCase().includes("tidak hadir")) {
                 tidakHadir += parseInt(entry.Jumlah) || 0; // Mengonversi Jumlah menjadi angka
             }
         });
@@ -3378,6 +3377,7 @@
         document.querySelector('.hadir-style h1').textContent = hadir;
         document.querySelector('.thadir-style h1').textContent = tidakHadir;
     }
+
 
 
     function fetchData() {
