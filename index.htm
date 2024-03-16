@@ -130,8 +130,10 @@ input[type="radio"] {
 
 /* Tambahkan gaya default untuk tombol "Hadir" dan "Tidak Hadir" */
 input[type="radio"] + label {
-    display: inline-block;
-    padding: 10px 15px; /* Ubah padding agar lebih konsisten */
+    display: flex; /* Menggunakan flexbox untuk mengatur posisi */
+    align-items: center; /* Memastikan konten berada di tengah vertikal */
+    justify-content: center; /* Memastikan konten berada di tengah horizontal */
+    padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease, border-color 0.3s ease;
