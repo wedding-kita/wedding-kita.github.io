@@ -3549,6 +3549,19 @@
             // Fungsi untuk pengiriman formulir
             
         </script>
+        
+        <script>
+            document.getElementById('attend').addEventListener('change', function () {
+                document.getElementById('attend-label').style.backgroundColor = this.checked ? 'green' : '';
+                document.getElementById('no-attend-label').style.backgroundColor = '';
+            });
+        
+            document.getElementById('no-attend').addEventListener('change', function () {
+                document.getElementById('no-attend-label').style.backgroundColor = this.checked ? 'orange' : '';
+                document.getElementById('attend-label').style.backgroundColor = '';
+            });
+        </script>
+        
 
 </body>
 
