@@ -63,101 +63,158 @@
     </style>
     
     <style>
-        #comments-container {
-          max-width: 600px;
-          margin: auto;
-          height: 300px;
-          overflow-y: auto;
-        }
-    
-        .comment {
-          display: flex;
-          align-items: center;
-          border: 1px solid #ddd;
-          margin: 10px;
-          padding: 10px;
-          border-radius: 5px;
-        }
-    
-        .avatar {
-          width: 30px;
-          height: 30px;
-          margin-right: 10px;
-        }
-    
-        .timestamp {
-          font-size: 12px;
-          color: #888;
-        }
-    
-        .name-container {
-          display: flex;
-          align-items: center;
-        }
-    
-        .name {
-          font-weight: bold;
-          margin-right: 5px;
-        }
-    
-        .icon {
-          width: 10px;
-          height: 10px;
-          margin-left: 2px;
-        }
-    
-        .wish {
-          font-style: italic;
-          color: #007bff;
-        }
-      </style>
-      
-      <style>
-        /* Style untuk radio box yang dipilih */
-        input[type="radio"] {
-            display: none; /* Sembunyikan input radio default */
-        }
+            /* Style untuk formulir */
+    #myForm {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
 
-        input[type="radio"] + label {
-            display: inline-block;
-            padding: 10px;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-            border: 1px solid transparent; /* Tambahkan border agar tombol memiliki ukuran yang konsisten */
-        }
+    .form-group {
+        margin-bottom: 20px;
+    }
 
-        /* Tombol "Hadir" */
-        #attend + label {
-            background-color: green;
-            color: white;
-        }
+    .form-control {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
 
-        /* Tombol "Tidak Hadir" */
-        #no-attend + label {
-            background-color: orange;
-            color: white;
-        }
+    .label-wish-form {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
 
-        /* Tambahkan properti untuk ukuran tombol */
-        input[type="radio"] + label {
-            width: 120px; /* Sesuaikan ukuran tombol sesuai kebutuhan */
-            text-align: center;
-        }
+    /* Style untuk radio box yang dipilih */
+    input[type="radio"] {
+        display: none; /* Sembunyikan input radio default */
+    }
 
-        /* Tambahkan style untuk ikon */
-        .radio-icon {
-            margin-right: 5px; /* Mengatur jarak antara ikon dan teks label */
-            vertical-align: middle; /* Memastikan ikon berada di tengah vertikal dengan teks label */
-        }
+    /* Tambahkan gaya default untuk tombol "Hadir" dan "Tidak Hadir" */
+    input[type="radio"] + label {
+        display: inline-block;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, border-color 0.3s ease; /* Tambahkan transition untuk warna latar belakang dan warna border */
+        border: 1px solid transparent; /* Tambahkan border agar tombol memiliki ukuran yang konsisten */
+    }
 
-        .flexy-container {
-            display: flex;
-            justify-content: space-around; /* Mengatur jarak antara tombol */
-            align-items: center;
-            margin-top: 10px; /* Tambahkan margin atas agar tombol berada di tengah */
-        }
-        
+    /* Tombol "Hadir" default */
+    #attend + label {
+        background-color: transparent; /* Ganti warna latar belakang default */
+        color: black; /* Ganti warna teks default */
+    }
+
+    /* Tombol "Tidak Hadir" default */
+    #no-attend + label {
+        background-color: transparent; /* Ganti warna latar belakang default */
+        color: black; /* Ganti warna teks default */
+    }
+
+    /* Tombol "Hadir" yang dipilih */
+    #attend:checked + label {
+        background-color: green; /* Ganti warna latar belakang saat dipilih */
+        color: white; /* Ganti warna teks saat dipilih */
+        border-color: green; /* Ganti warna border saat dipilih */
+    }
+
+    /* Tombol "Tidak Hadir" yang dipilih */
+    #no-attend:checked + label {
+        background-color: orange; /* Ganti warna latar belakang saat dipilih */
+        color: white; /* Ganti warna teks saat dipilih */
+        border-color: orange; /* Ganti warna border saat dipilih */
+    }
+
+    /* Tambahkan style untuk ikon */
+    .radio-icon {
+        margin-right: 5px; /* Mengatur jarak antara ikon dan teks label */
+        vertical-align: middle; /* Memastikan ikon berada di tengah vertikal dengan teks label */
+    }
+
+    /* Style untuk pilihan berganda */
+    #jumlah {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        margin-top: 10px;
+    }
+
+    .flexy-container {
+        display: flex;
+        justify-content: space-between; /* Mengatur jarak antara tombol */
+        align-items: center;
+        margin-top: 10px; /* Tambahkan margin atas agar tombol berada di tengah */
+    }
+
+    button[type="button"] {
+        flex: 1;
+        color: white;
+        background-color: #32373c;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+    button[type="button"]:hover {
+        background-color: #555;
+    }
+
+    /* Style untuk radio box yang dipilih */
+    input[type="radio"] {
+        display: none; /* Sembunyikan input radio default */
+    }
+
+    input[type="radio"] + label {
+        display: inline-block;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, border-color 0.3s ease; /* Tambahkan transition untuk warna latar belakang dan warna border */
+        border: 1px solid transparent; /* Tambahkan border agar tombol memiliki ukuran yang konsisten */
+    }
+
+    /* Tombol "Hadir" default */
+    #attend + label {
+        background-color: transparent; /* Ganti warna latar belakang default */
+        color: black; /* Ganti warna teks default */
+    }
+
+    /* Tombol "Tidak Hadir" default */
+    #no-attend + label {
+        background-color: transparent; /* Ganti warna latar belakang default */
+        color: black; /* Ganti warna teks default */
+    }
+
+    /* Tombol "Hadir" yang dipilih */
+    #attend:checked + label {
+        background-color: green; /* Ganti warna latar belakang saat dipilih */
+        color: white; /* Ganti warna teks saat dipilih */
+        border-color: green; /* Ganti warna border saat dipilih */
+    }
+
+    /* Tombol "Tidak Hadir" yang dipilih */
+    #no-attend:checked + label {
+        background-color: orange; /* Ganti warna latar belakang saat dipilih */
+        color: white; /* Ganti warna teks saat dipilih */
+        border-color: orange; /* Ganti warna border saat dipilih */
+    }
+
+    /* Tambahkan style untuk ikon */
+    .radio-icon {
+        margin-right: 5px; /* Mengatur jarak antara ikon dan teks label */
+        vertical-align: middle; /* Memastikan ikon berada di tengah vertikal dengan teks label */
+    }
+
         </style>
 </head>
 
