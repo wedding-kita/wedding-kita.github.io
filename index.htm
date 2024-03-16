@@ -3375,8 +3375,11 @@
             totalTidakHadir += (entry.Keterangan.toLowerCase().match(/tidak hadir/g) || []).length;
         });
 
+        let totalHadir1 = totalHadir - totalTidakHadir;
+
+
         // Set nilai label untuk jumlah hadir dan tidak hadir
-        document.querySelector('.hadir-style h1').textContent = totalHadir;
+        document.querySelector('.hadir-style h1').textContent = totalHadir1;
         document.querySelector('.thadir-style h1').textContent = totalTidakHadir;
     }
 
