@@ -63,6 +63,56 @@
     </style>
     
     <style>
+        #comments-container {
+          max-width: 600px;
+          margin: auto;
+          height: 300px;
+          overflow-y: auto;
+        }
+    
+        .comment {
+          display: flex;
+          align-items: center;
+          border: 1px solid #ddd;
+          margin: 10px;
+          padding: 10px;
+          border-radius: 5px;
+        }
+    
+        .avatar {
+          width: 30px;
+          height: 30px;
+          margin-right: 10px;
+        }
+    
+        .timestamp {
+          font-size: 12px;
+          color: #888;
+        }
+    
+        .name-container {
+          display: flex;
+          align-items: center;
+        }
+    
+        .name {
+          font-weight: bold;
+          margin-right: 5px;
+        }
+    
+        .icon {
+          width: 10px;
+          height: 10px;
+          margin-left: 2px;
+        }
+    
+        .wish {
+          font-style: italic;
+          color: #007bff;
+        }
+      </style>
+      
+      <style>
         /* Style untuk radio box yang dipilih */
 input[type="radio"] {
     display: none; /* Sembunyikan input radio default */
@@ -110,6 +160,7 @@ input[type="radio"] + label {
     vertical-align: middle; /* Memastikan ikon berada di tengah vertikal dengan teks label */
 }
 
+        
         </style>
 </head>
 
