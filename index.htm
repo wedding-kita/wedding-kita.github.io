@@ -137,7 +137,21 @@
         }
     
         .attend {
-            margin-right: 10px;
+            display: inline-block;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+    
+        #attend {
+            background-color: green;
+            color: white;
+        }
+    
+        #no-attend {
+            background-color: orange;
+            color: white;
         }
     
         #number-attend {
@@ -146,7 +160,7 @@
     
         .flexy-container {
             display: flex;
-            justify-content: center;
+            justify-content: space-between; /* Mengatur jarak antara tombol */
             align-items: center;
         }
     
