@@ -3361,31 +3361,31 @@
  
 <script>
     function hitungKehadiran(data) {
-        let hadir = 0;
-        let tidakHadir = 0;
+        let totalHadir = 0;
+        let totalTidakHadir = 0;
 
         // Iterasi melalui setiap entri data
         data.forEach(entry => {
-            if (entry.Keterangan === "hadir") {
-                // Jika entri memiliki Wish "hadir", tambahkan ke jumlah hadir
-                hadir += parseInt(entry.Jumlah) || 0; // Mengonversi Jumlah menjadi angka
-            }
-            if (entry.Keterangan === "Tidak Hadir") {
-                // Jika entri memiliki Wish "Tidak Hadir", tambahkan ke jumlah tidak hadir
-                tidakHadir += parseInt(entry.Jumlah) || 0; // Mengonversi Jumlah menjadi angka
-            }
+            // Hitung kemunculan kata "hadir" dan "tidak hadir" dalam kolom "Wish"
+            totalHadir += (entry.Wish.toLowerCase().match(/hadir/g) || []).length;
+            totalTidakHadir += (entry.Wish.toLowerCase().match(/tidak hadir/g) || []).length;
+
+            // Hitung kemunculan kata "hadir" dan "tidak hadir" dalam kolom "Keterangan"
+            totalHadir += (entry.Keterangan.toLowerCase().match(/hadir/g) || []).length;
+            totalTidakHadir += (entry.Keterangan.toLowerCase().match(/tidak hadir/g) || []).length;
         });
 
         // Set nilai label untuk jumlah hadir dan tidak hadir
-        document.querySelector('.hadir-style h1').textContent = hadir;
-        document.querySelector('.thadir-style h1').textContent = tidakHadir;
+        document.querySelector('.hadir-style h1').textContent = totalHadir;
+        document.querySelector('.thadir-style h1').textContent = totalTidakHadir;
     }
 
 
 
 
+
     function fetchData() {
-        fetch('https://script.google.com/macros/s/AKfycbwXGMEk0Sr_AUpKxfChp0zXL4f0wjoRwj-7bWCXFKK5ICNNHR1q3mIXauVQQmYEHGj39A/exec')
+        fetch('https://script.google.com/macros/s/AKfycbxfITv0in6X8DnTsCWQbcFB6tP5uv2Vt_h3NKGDeDBWdEANJzgL7Y-etg4MBBgzYwdnFw/exec')
             .then(response => response.json())
             .then(data => {
                 // Urutkan data dari paling terakhir
