@@ -3166,161 +3166,212 @@
         src="https://alwy-nadia.site/wp-content/assets/js/foreverr_c5de72f0bc4ac71d9220fc2631fc3d1f.js"></script>
 
         <script>
-            function fetchData() {
-              fetch('https://script.google.com/macros/s/AKfycbxL8UVzeoai_ILEn7hLrZy5vLxOJ3W1wbKBqeADhjzM9_gKuHKhVMM-8hDGpuEWxE7y/exec')
-                .then(response => response.json())
-                .then(data => {
-                  // Urutkan data dari paling terakhir
-                  const sortedData = data.data.reverse();
-                  displayComments(sortedData);
-                })
-                .catch(error => console.error('Error fetching data:', error));
+            // Mendapatkan nilai parameter 'to' dari URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const namaTamu = urlParams.get('to');
+          
+            // Menangkap elemen dengan class 'nmt' dan mengganti teksnya dengan nama tamu pada contoh pertama
+            const elemenNamaTamu1 = document.querySelector('.nmt');
+            if (elemenNamaTamu1) {
+              elemenNamaTamu1.textContent = namaTamu || "Tamu Undangan";
             }
-        
-            function formatTimestamp(timestamp) {
-              const date = new Date(timestamp);
-              const formattedDate = date.toLocaleDateString('en-US', { day: 'numeric', month: 'short', year: 'numeric' });
-              return formattedDate;
+          
+            // Menangkap elemen <p> dalam class 'qrcode-to' dan mengganti teksnya dengan nama tamu pada contoh kedua
+            const elemenNamaTamu2 = document.querySelector('.qrcode-to p');
+            if (elemenNamaTamu2) {
+              elemenNamaTamu2.textContent = namaTamu || "Tamu Undangan";
             }
-        
-            function displayComments(comments) {
-              const container = document.getElementById('comments-container');
-              container.innerHTML = '';
-        
-              comments.forEach(comment => {
-                const commentDiv = document.createElement('div');
-                commentDiv.classList.add('comment');
-        
-                // Avatar
-                const avatarImg = document.createElement('img');
-                avatarImg.classList.add('avatar');
-                avatarImg.src = 'https://w7.pngwing.com/pngs/178/595/png-transparent-user-profile-computer-icons-login-user-avatars.png';
-        
-                // Content
-                const contentDiv = document.createElement('div');
-        
-                // Name Container
-                const nameContainerDiv = document.createElement('div');
-                nameContainerDiv.classList.add('name-container');
-        
-                // Name
-                const nameDiv = document.createElement('div');
-                nameDiv.classList.add('name');
-                nameDiv.textContent = comment['Nama'];
-        
-                // Keterangan icon
-                const iconImg = document.createElement('img');
-                iconImg.classList.add('icon');
-                iconImg.src = comment['Wish'] === 'hadir'
-                  ? 'https://catur-fetasya-wedding.site/wp-content/icon/Checkmark.svg'
-                  : 'https://catur-fetasya-wedding.site/wp-content/icon/x-mark-3-64.png';
-        
-                nameContainerDiv.appendChild(nameDiv);
-                nameContainerDiv.appendChild(iconImg); // Add the icon
-        
-                // Timestamp, Wish, and other content
-                const timestampDiv = document.createElement('div');
-                timestampDiv.classList.add('timestamp');
-                timestampDiv.textContent = formatTimestamp(comment['TimeStamp']);
-        
-                const wishDiv = document.createElement('div');
-                wishDiv.classList.add('wish');
-                wishDiv.textContent = comment['Keterangan'];
-        
-                contentDiv.appendChild(nameContainerDiv);
-                contentDiv.appendChild(timestampDiv);
-                contentDiv.appendChild(wishDiv);
-        
-                commentDiv.appendChild(avatarImg);
-                commentDiv.appendChild(contentDiv);
-        
-                container.appendChild(commentDiv);
-              });
-            }
-        
-            // Fetch data when the page loads
-            window.onload = fetchData;
-        </script>
-                
-                <script>
-                    function submitForm() {
-                        var nama = document.getElementById("nama").value;
-                        var wish = document.getElementById("wish").value;
-                        var attend = document.getElementById("attend").value;
-                        var jumlah = document.getElementById("jumlah").value;
-                        // Mengubah nilai variabel attend berdasarkan nilai variabel jumlah
-                        if (jumlah == 1 || jumlah == 2 || jumlah == 3) {
-                            attend = "hadir";
-                        } else {
-                            attend = "Tidak Hadir";
-                        }
-                        // Menyusun URL formulir Google Docs:
-                        var url = "https://docs.google.com/forms/d/e/1FAIpQLSf6enLc5wLEAGMckpqljot52OwYPHBfYSjkLTPPGxkHgrQOAg/formResponse";
-                        url += "?usp=pp_url";
-                        url += "&entry.979916342=" + encodeURIComponent(nama);
-                        url += "&entry.23306173=" + encodeURIComponent(wish);
-                        url += "&entry.769521874=" + encodeURIComponent(attend);
-                        url += "&entry.822914930=" + encodeURIComponent(jumlah);
-                        console.log(url);
-                
-                        // Mengirim request ke Google Apps Script:
-                        fetch(url, {
-                            method: "GET"
-                        })
-                        .then(response => {
-                            if (!response.ok) {
-                                throw new Error("Network response was not ok");
-                            }
-                            return response.text();
-                        })
-                        .then(data => {
-                            console.log("Formulir berhasil dikirim:", data);
-                            alert("Formulir berhasil dikirim!");
-                        })
-                        .catch(error => {
-                            console.error("Ada masalah dengan pengiriman formulir:", error);
-                            // alert("Ada masalah dengan pengiriman formulir!");
-                        })
-                        .finally(() => {
-                            // Mengosongkan variabel setelah fungsi selesai
-                            // document.getElementById("nama").value = "";
-                            document.getElementById("wish").value = "";
-                            // document.getElementById("attend").value = "";
-                            document.getElementById("jumlah").value = "";
-                            // Jika fetchData adalah fungsi lain yang ingin Anda panggil
-                            fetchData();
-                        });
-                    }
-                </script>
     
-                <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    
-                <script>
-                function submitFormCheck() {
-                    // Memeriksa apakah nama, ucapan, kehadiran, dan jumlah tamu sudah terisi
-                    var namaTamu = document.getElementById('nama').value;
-                    var ucapan = document.getElementById('wish').value;
-                    var kehadiran = document.querySelector('input[name="attendance"]:checked');
-                    var jumlahTamu = document.getElementById('jumlah').value;
-                
-                    if (namaTamu === "" || ucapan === "" || !kehadiran || jumlahTamu === "") {
-                        // Jika ada yang belum terisi, tampilkan alert menggunakan SweetAlert2
-                        Swal.fire({
-                            title: 'Isian belum lengkap',
-                            text: 'Silakan lengkapi sebelum mengirim pesan.',
-                            imageUrl: 'https://catur-fetasya-wedding.site/wp-content/icon/emojiterbalik.svg', // Ganti dengan path gambar Anda
-                            imageWidth: 100, // Sesuaikan lebar gambar
-                            imageHeight: 100, // Sesuaikan tinggi gambar
-                            imageAlt: 'Custom Icon'
-                        });
-                    } else {
-                        // Jika semua input sudah terisi, lanjutkan dengan submitForm()
-                        submitForm();
-                    }
+            // Menangkap elemen <p> dalam class 'qrcode-to' dan mengganti teksnya dengan nama tamu pada contoh kedua
+            const elemenNamaTamu3 = document.getElementById('nama');
+            if (elemenNamaTamu3) {
+              elemenNamaTamu3.value = namaTamu || "";
+            }
+          </script>
+          <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+          <style>
+            /* Gaya tambahan untuk latar belakang putih dan sudut yang dibulatkan */
+            #qrcode-generated1 {
+                background-color: white;
+                border-radius: 10px;
+                padding: 10px;
+                margin: 0px 10px; /* Atur nilai margin sesuai kebutuhan Anda */
+                /* display: inline-block; */
+            }
+        </style>
+          <script>
+              // Fungsi untuk membuat QR code
+              function generateQRCode(text, elementId) {
+                  // Menggunakan library QRCode.js
+                  var qrcode = new QRCode(document.getElementById(elementId), {
+                      text: text,
+                      width: 120,
+                      height: 120
+                  });
+              }
+      
+              // Mendapatkan nilai parameter 'to' dari URL
+              const urlParams1 = new URLSearchParams(window.location.search);
+              const namaTamu1 = urlParams1.get('to');
+      
+              // Panggil fungsi dengan teks yang diinginkan (namaTamu) dan id elemen untuk menampilkannya
+              generateQRCode(namaTamu1, 'qrcode-generated1');
+          </script>
+
+<script>
+    function fetchData() {
+      fetch('https://script.google.com/macros/s/AKfycbxL8UVzeoai_ILEn7hLrZy5vLxOJ3W1wbKBqeADhjzM9_gKuHKhVMM-8hDGpuEWxE7y/exec')
+        .then(response => response.json())
+        .then(data => {
+          // Urutkan data dari paling terakhir
+          const sortedData = data.data.reverse();
+          displayComments(sortedData);
+        })
+        .catch(error => console.error('Error fetching data:', error));
+    }
+
+    function formatTimestamp(timestamp) {
+      const date = new Date(timestamp);
+      const formattedDate = date.toLocaleDateString('en-US', { day: 'numeric', month: 'short', year: 'numeric' });
+      return formattedDate;
+    }
+
+    function displayComments(comments) {
+      const container = document.getElementById('comments-container');
+      container.innerHTML = '';
+
+      comments.forEach(comment => {
+        const commentDiv = document.createElement('div');
+        commentDiv.classList.add('comment');
+
+        // Avatar
+        const avatarImg = document.createElement('img');
+        avatarImg.classList.add('avatar');
+        avatarImg.src = 'https://w7.pngwing.com/pngs/178/595/png-transparent-user-profile-computer-icons-login-user-avatars.png';
+
+        // Content
+        const contentDiv = document.createElement('div');
+
+        // Name Container
+        const nameContainerDiv = document.createElement('div');
+        nameContainerDiv.classList.add('name-container');
+
+        // Name
+        const nameDiv = document.createElement('div');
+        nameDiv.classList.add('name');
+        nameDiv.textContent = comment['Nama'];
+
+        // Keterangan icon
+        const iconImg = document.createElement('img');
+        iconImg.classList.add('icon');
+        iconImg.src = comment['Wish'] === 'hadir'
+          ? 'https://catur-fetasya-wedding.site/wp-content/icon/Checkmark.svg'
+          : 'https://catur-fetasya-wedding.site/wp-content/icon/x-mark-3-64.png';
+
+        nameContainerDiv.appendChild(nameDiv);
+        nameContainerDiv.appendChild(iconImg); // Add the icon
+
+        // Timestamp, Wish, and other content
+        const timestampDiv = document.createElement('div');
+        timestampDiv.classList.add('timestamp');
+        timestampDiv.textContent = formatTimestamp(comment['TimeStamp']);
+
+        const wishDiv = document.createElement('div');
+        wishDiv.classList.add('wish');
+        wishDiv.textContent = comment['Keterangan'];
+
+        contentDiv.appendChild(nameContainerDiv);
+        contentDiv.appendChild(timestampDiv);
+        contentDiv.appendChild(wishDiv);
+
+        commentDiv.appendChild(avatarImg);
+        commentDiv.appendChild(contentDiv);
+
+        container.appendChild(commentDiv);
+      });
+    }
+
+    // Fetch data when the page loads
+    window.onload = fetchData;
+</script>
+        
+        <script>
+            function submitForm() {
+                var nama = document.getElementById("nama").value;
+                var wish = document.getElementById("wish").value;
+                var attend = document.getElementById("attend").value;
+                var jumlah = document.getElementById("jumlah").value;
+                // Mengubah nilai variabel attend berdasarkan nilai variabel jumlah
+                if (jumlah == 1 || jumlah == 2 || jumlah == 3) {
+                    attend = "hadir";
+                } else {
+                    attend = "Tidak Hadir";
                 }
-                </script>
+                // Menyusun URL formulir Google Docs:
+                var url = "https://docs.google.com/forms/d/e/1FAIpQLSf6enLc5wLEAGMckpqljot52OwYPHBfYSjkLTPPGxkHgrQOAg/formResponse";
+                url += "?usp=pp_url";
+                url += "&entry.979916342=" + encodeURIComponent(nama);
+                url += "&entry.23306173=" + encodeURIComponent(wish);
+                url += "&entry.769521874=" + encodeURIComponent(attend);
+                url += "&entry.822914930=" + encodeURIComponent(jumlah);
+                console.log(url);
+        
+                // Mengirim request ke Google Apps Script:
+                fetch(url, {
+                    method: "GET"
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error("Network response was not ok");
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                    console.log("Formulir berhasil dikirim:", data);
+                    alert("Formulir berhasil dikirim!");
+                })
+                .catch(error => {
+                    console.error("Ada masalah dengan pengiriman formulir:", error);
+                    // alert("Ada masalah dengan pengiriman formulir!");
+                })
+                .finally(() => {
+                    // Mengosongkan variabel setelah fungsi selesai
+                    // document.getElementById("nama").value = "";
+                    document.getElementById("wish").value = "";
+                    // document.getElementById("attend").value = "";
+                    document.getElementById("jumlah").value = "";
+                    // Jika fetchData adalah fungsi lain yang ingin Anda panggil
+                    fetchData();
+                });
+            }
+        </script>
 
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
+        <script>
+        function submitFormCheck() {
+            // Memeriksa apakah nama, ucapan, kehadiran, dan jumlah tamu sudah terisi
+            var namaTamu = document.getElementById('nama').value;
+            var ucapan = document.getElementById('wish').value;
+            var kehadiran = document.querySelector('input[name="attendance"]:checked');
+            var jumlahTamu = document.getElementById('jumlah').value;
+        
+            if (namaTamu === "" || ucapan === "" || !kehadiran || jumlahTamu === "") {
+                // Jika ada yang belum terisi, tampilkan alert menggunakan SweetAlert2
+                Swal.fire({
+                    title: 'Isian belum lengkap',
+                    text: 'Silakan lengkapi sebelum mengirim pesan.',
+                    imageUrl: 'https://catur-fetasya-wedding.site/wp-content/icon/emojiterbalik.svg', // Ganti dengan path gambar Anda
+                    imageWidth: 100, // Sesuaikan lebar gambar
+                    imageHeight: 100, // Sesuaikan tinggi gambar
+                    imageAlt: 'Custom Icon'
+                });
+            } else {
+                // Jika semua input sudah terisi, lanjutkan dengan submitForm()
+                submitForm();
+            }
+        }
+        </script>
 
 </body>
 
