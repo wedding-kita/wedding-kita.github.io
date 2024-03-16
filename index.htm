@@ -2089,7 +2089,7 @@
                                         <div class='header-wishes'><a id='saic-link-96501'
                                                 class='saic-link auto-load-true'
                                                 href='index-1.htm?post_id=96501&amp;comments=21&amp;get=1000 order=ASC'
-                                                title=' 21 Ucapan '><i aria-hidden='true' class='far fa-envelope-open'>
+                                                title=' Ucapan '><i aria-hidden='true' class='far fa-envelope-open'>
                                                 </i> <span>21</span>
                                                 <h id="wish-head"> Ucapan </h>
                                             </a></div><span id='admin' class='counter-box'>
@@ -2101,10 +2101,10 @@
                                                 <h1>7</h1>
                                                 <p id='en-tidak'> Tidak Hadir</p>
                                             </div>
-                                            <div class='ragu-style'>
+                                            <!-- <div class='ragu-style'>
                                                 <h1>3</h1>
                                                 <p id='en-ragu'>Ragu</p>
-                                            </div>
+                                            </div> -->
                                         </span>
                                     </div>
                                     <div id='saic-wrap-commnent-96501' class='saic-wrap-comments' style='display:none;'>
@@ -2113,7 +2113,7 @@
                                             <div id='saic-container-form-96501'
                                                 class='saic-container-form saic-no-login'>
                                                 <div id='respond-96501' class='respond clearfix'>
-                                                    <form action='https://alwy-nadia.site/wp-comments-post.php'
+                                                    <!-- <form action='https://alwy-nadia.site/wp-comments-post.php'
                                                         method='post' id='commentform-96501'>
                                                         <p class="comment-form-author saic-field-1"><input id="author"
                                                                 name="author" type="text" class="saic-input"
@@ -2182,17 +2182,84 @@
                                                             </p>
                                                             <div style='padding-top:10px;'></div>
                                                         </div>
+                                                    </form> -->
+                                                    <form id="myForm">
+                                                        <div class="form-group"> <input class="form-control"
+                                                                name="name" id="nama" value="" placeholder="Nama Kamu"
+                                                                required=""></div>
+                                                        <div class="form-group"><textarea class="form-control"
+                                                                rows="4" name="wishes" id="wish"
+                                                                placeholder="Berikan Ucapan &amp; Do&#039;a"
+                                                                required=""></textarea></div>
+                                                        <div class="label-wish-form">Konfirmasi Kehadiran ?</div>
+                                                        <div class="form-group"> <input type="radio"
+                                                                name="attendance" value="hadir" id="attend"
+                                                                required/=""> <label for="attend" class="attend">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                    height="16" fill="currentColor"
+                                                                    class="bi bi-check-circle" viewbox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z">
+                                                                    </path>
+                                                                    <path
+                                                                        d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z">
+                                                                    </path>
+                                                                </svg> Hadir</label> <input type="radio"
+                                                                name="attendance" value="Tidak Hadir"
+                                                                id="no-attend"> <label for="no-attend"
+                                                                class="attend"> <svg
+                                                                    xmlns="http://www.w3.org/2000/svg" width="15"
+                                                                    height="15" fill="currentColor"
+                                                                    class="bi bi-x-circle" viewbox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z">
+                                                                    </path>
+                                                                    <path
+                                                                        d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z">
+                                                                    </path>
+                                                                </svg> Tidak Hadir</label>
+                                                            </div>
+                                                        <div class="form-group" id="number-attend">
+                                                            <div class="form-group-prepend"> <label>Jumlah
+                                                                    Tamu</label> <select type="number" id="jumlah"
+                                                                    name="numb-attendence">
+                                                                    <option disabled="">~</option>
+                                                                    <option value='1'>1 Tamu</option>
+                                                                    <option value='2'>2 Tamu</option>
+                                                                    <option value='3'>3 Tamu</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="flexy-container">
+                                                            <button type="button" onclick="submitFormCheck()" style="
+                                                                flex: 1;
+                                                                color: white; 
+                                                                background-color: #32373c; 
+                                                                border: none; 
+                                                                padding: 10px; 
+                                                                cursor: pointer;
+                                                                border-radius: 10px;
+                                                                text-align: center;
+                                                                font-size: 16px; /* Ukuran font */
+                                                                font-weight: bold; /* Ketebalan font */
+                                                                transition: background-color 0.3s ease; /* Efek transisi warna latar belakang */
+                                                            ">
+                                                                Send
+                                                            </button>  
+                                                        </div>                                                            
+                                                        <!-- </div> <button type="button" onclick="submitForm()">Send</button> -->
                                                     </form>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div id='saic-comment-status-96501' class='saic-comment-status'></div>
+                                        <div id="comments-container"></div>
+                                        <!-- <div id='saic-comment-status-96501' class='saic-comment-status'></div> -->
                                     </div>
-                                    <div id='koment-box' class='koment-box'>
+                                    <!-- <div id='koment-box' class='koment-box'>
                                         <ul id='saic-container-comment-96501'
                                             class='saic-container-comments saic-order-ASC  saic-has-21-comments saic-multiple-comments'
                                             data-order='ASC'></ul>
-                                    </div>
+                                    </div> -->
                                     <div class='saic-holder-96501 saic-holder'></div>
                                 </div>
                             </div>
