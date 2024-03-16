@@ -495,6 +495,48 @@
     src: url(https://alwy-nadia.site/s/yesevaone/v22/OpNJno4ck8vc-xYpwWWxli1VXg-1.ttf) format('truetype');
 }
 
+
+.Namautama {
+    font-family: 'Surrealism', sans-serif;
+    font-size: 20px; /* Sesuaikan dengan ukuran yang diinginkan */
+  }
+  .Namautamabawah {
+    font-family: 'Surrealism', sans-serif;
+    font-size: 28px; /* Sesuaikan dengan ukuran yang diinginkan */
+  }
+  
+  .elementor-widget-container1 {
+    max-width: 400px; /* Adjust the max-width as needed */
+    width: 100%;
+    border: 1px solid #32373c; /* Thin gray border */
+    border-radius: 15px; /* Adjust the border-radius as needed */
+    overflow: hidden;
+    margin: 20px auto; /* Adjust the margin as needed for spacing from the edges */
+  }
+
+  .map-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px; /* Adjust the value as needed for rounded corners */
+    padding-left: 20px; /* Adjust the left padding as needed */
+    padding-right: 20px; /* Adjust the right padding as needed */
+  }
+
+  .elementor-widget-container1 iframe {
+    width: 50%;
+    height: 300px; /* Adjust the height as needed */
+    border: 0;
+    border-radius: 15px; /* Adjust the border-radius as needed */
+  }
+  
+  .flexy-container {
+    display: flex;
+    justify-content: space-between; /* Untuk meletakkan tombol di kanan dan kiri */
+    /* background-color: brown; Warna latar belakang cokelat */
+    padding: 5px; /* Padding untuk memberikan ruang di sekitar tombol */
+    border-radius: 10px;
+  }
+  
 .wp-block-button__link {
     color: #fff;
     background-color: #32373c;

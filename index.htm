@@ -33,6 +33,56 @@
     <script src="https://alwy-nadia.site/ajax/libs/jquery/3.6.2/jquery.min-1.js" id="jquery-js"></script>
     <link rel="canonical" href="index.htm">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <style>
+        #comments-container {
+          max-width: 600px;
+          margin: auto;
+          height: 300px;
+          overflow-y: auto;
+        }
+    
+        .comment {
+          display: flex;
+          align-items: center;
+          border: 1px solid #ddd;
+          margin: 10px;
+          padding: 10px;
+          border-radius: 5px;
+        }
+    
+        .avatar {
+          width: 30px;
+          height: 30px;
+          margin-right: 10px;
+        }
+    
+        .timestamp {
+          font-size: 12px;
+          color: #888;
+        }
+    
+        .name-container {
+          display: flex;
+          align-items: center;
+        }
+    
+        .name {
+          font-weight: bold;
+          margin-right: 5px;
+        }
+    
+        .icon {
+          width: 10px;
+          height: 10px;
+          margin-left: 2px;
+        }
+    
+        .wish {
+          font-style: italic;
+          color: #007bff;
+        }
+      </style>
 </head>
 
 <body data-rsssl="1"
