@@ -3480,14 +3480,21 @@
             // Memeriksa apakah nama, ucapan, dan kehadiran sudah terisi
             var namaTamu = document.getElementById('nama').value;
             var ucapan = document.getElementById('wish').value;
-            var kehadiran = document.querySelector('input[name="attendance"]:checked');
+            var kehadiranInput = document.querySelector('input[name="attendance"]:checked');
+
+            // Menginisialisasi variabel kehadiran dengan nilai "tidak hadir"
+            var kehadiran = "tidak hadir";
 
             // Jika opsi "Hadir" dipilih, periksa juga jumlah tamu
-            if (kehadiran && kehadiran.value === "hadir") {
+            if (kehadiranInput && kehadiranInput.value === "hadir") {
                 var jumlahTamu = document.getElementById('jumlah').value;
+                // Mengubah nilai kehadiran menjadi "hadir" jika opsi "Hadir" dipilih
+                kehadiran = "hadir";
+            } else {
+                var jumlahTamu = ""; // Reset jumlahTamu menjadi kosong jika opsi "Tidak Hadir" dipilih
             }
 
-            if (namaTamu === "" || ucapan === "" || !kehadiran || (kehadiran.value === "hadir" && jumlahTamu === "")) {
+            if (namaTamu === "" || ucapan === "" || (kehadiran === "hadir" && jumlahTamu === "")) {
                 // Jika ada yang belum terisi, tampilkan alert menggunakan SweetAlert2
                 Swal.fire({
                     title: 'Isian belum lengkap',
@@ -3502,6 +3509,7 @@
                 submitForm();
             }
         }
+
 
         </script>
         <script>
